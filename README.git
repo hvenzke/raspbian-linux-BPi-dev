@@ -1,8 +1,18 @@
 #
+# HowTO fetch Igors Kernel sources
+#
 # raspbian-linux-BPi-dev
 raspbian linux Kernel for banana-PI-R1 - dev
 
+# fetch Igors lib 
 mkdir /srv/GIT
-git init
+git clone https://github.com/igorpecovnik/lib
+#
+# run script from https://github.com/igorpecovnik/lib/blob/next/README.md
+# configure your board type.
+#
 
+git init
 git remote add origin https://github.com/hvenzke/raspbian-linux-BPi-dev.git
+git push -u origin master
+#
