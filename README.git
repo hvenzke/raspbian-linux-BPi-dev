@@ -8,7 +8,8 @@ raspbian linux Kernel for banana-PI-R1 - dev
 mkdir /srv/GIT
 git clone https://github.com/igorpecovnik/lib
 #
-# run script from https://github.com/igorpecovnik/lib/blob/next/README.md
+# fetch  script from https://github.com/igorpecovnik/lib/blob/next/README.md
+# save it as  /srv/GIT/igor.sh , chmod 755 /srv/GIT/igor.sh
 # configure your board type.
 #
 
